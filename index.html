@@ -1,0 +1,40 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>texto</title>
+        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="./img/Logo.svg" alt="logo">
+        </header>
+         <main class="main">
+           <div class="left">
+            <textarea id="textarea"class="textarea" placeholder="Digite seu texto"></textarea>
+            <div class="left_footer">
+           <img src="./img/Group.png" alt="alert">
+           
+           <p class="left_alert">Apenas letras minúsculas e sem acento.</p><br>
+           <div class="left_btn">
+           <button id="botonEncriptar" class="cript-bnt">Criptografar</button>
+        
+           <button id="botonDescriptar" class="desc-btn">Descriptografar</button>
+        </div>
+        </div>
+        </div>
+        <diV id="right" class="right ajustar">
+       <img id="homem" class="boneco" src="./img/High-quality.png" alt="homem">
+       <textarea id="mensagemFinal" class="mensagem_final" placeholder="Nenhuma mensagem encontrada"></textarea>
+       <!-- <p id="mensagemFinal" class="mensagem_final ajustar">Nenhuma mensagem encontrada</p> -->
+       <p id="rightInfo" class="ajustar">Digite um texto que você deseja<br> criptografar ou descriptografar.</p>
+       <button id="botonCopiar" class="boton__copiar oculto">Copiar</button>
+    </diV>
+         </main>
+         <script src="./script.js"></script>
+    </body>
+</html>
